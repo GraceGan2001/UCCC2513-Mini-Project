@@ -7,12 +7,13 @@ print(my_arr)
 my_arr[4:7] = 25
 print(my_arr)
 
-#assign arr_slice using copy()
+#Assign arr_slice using copy()
 arr_slice = my_arr[4:7].copy() 
 
 #Change the first element of arr_slice to -1
 arr_slice[0]= -1
 
+#Check if changes made in arr_slice will affect my_arr
 print(arr_slice)
 print(my_arr)
 
