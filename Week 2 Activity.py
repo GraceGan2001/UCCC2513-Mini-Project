@@ -1,6 +1,5 @@
 #Question 3
 #Propose a way to reassign arr_slice with new value without modifying my_arr
-
 import numpy as np
 my_arr = np.arange(10)
 print(my_arr)
